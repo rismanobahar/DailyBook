@@ -22,5 +22,8 @@
 
 ######################### next development plan for this project:
 1. Create a login and sign up function for this web app
-2. Change the color display for all pages
-3. add the crud operation at description section of bookcard and booksinglecard page
+2. Change the color display for all pages //done
+3. add the crud operation at description section of bookcard and booksinglecard page //done
+4. add a checklist function that indicate which book is finished to read on, apply this function on card page.
+   for better UX, you may add a function that can put the checked card in last the list of cards
+5. make a session function that automatically sign off the user after being not used for certain minutes

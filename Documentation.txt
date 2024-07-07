@@ -1,0 +1,26 @@
+######################### Backend Side:
+1. index.js = the foundation of server side(start the project via this file)
+2. config.js = define the port and database link(URL)
+3. ./routes/bookRoute.js = set up the http method(CRUD) and response control/handler
+4. ./models/bookModels.js = define every table from the database that will be used along with its argument(data type and required form)
+5. package.json = the term dev and start on script object refer to starting project with development mode or production mode
+
+######################### Frontend Side:
+./pages:
+1. home.jsx = the homepage of all of the web app function
+2. CreateBooks.jsx = the page for inputing book ( create operation)
+3. ShowBook.jsx = the page for showing book ( read operation )
+4. EditBook.jsx = the page for editing book ( update operation )
+5. DeleteBook.jsx = the page for deleting book ( delete operation )
+./components:
+1. BackButton.jsx = a button component for back function direct the page back into homepage
+2. Spinner.jsx = a loading animation component used everytime the page is rendering
+3. ./home/BooksTable.jsx = a component for showing the table along with all data
+4. ./home/BookCard.jsx = a component for showing a grid or gallery version of the Book
+5. ./home/BookSingleCard.jsx = a component for showing all card displayed in the bookcard page along with its details
+6. ./home/BookModal.jsx = a component function for showing a modal display which initiated after client click the eye-icon on the booksinglecard display
+
+######################### next development plan for this project:
+1. Create a login and sign up function for this web app
+2. Change the color display for all pages
+3. add the crud operation at description section of bookcard and booksinglecard page

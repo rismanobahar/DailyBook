@@ -27,3 +27,5 @@
 4. add a checklist function that indicate which book is finished to read on, apply this function on card page.
    for better UX, you may add a function that can put the checked card in last the list of cards
 5. make a session function that automatically sign off the user after being not used for certain minutes
+6. change the book card into page number style 
+7. add night mode
